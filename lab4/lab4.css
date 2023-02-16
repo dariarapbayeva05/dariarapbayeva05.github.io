@@ -172,19 +172,34 @@ ul {
   .col-Footer {width: 100%; padding: 0;}
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .nav_list a {
+@media screen and (min-width: 400px) {
+  /* .nav_list a {
     float: none;
     width: 100%;
   }
-}
+  .banner {
+    max-width: 400px;
+    text-align: center;  
+  } */
+  /* .nav_list{
+    display: block;
+  } */
+  .main_content{
+    display: inline-block;
+
+  }
+  .row{
+    display: none;
+  }
+
 #footer{
   background-color: rgb(226, 139, 63);
   text-align: center;
   padding: 10px;
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  align-items: center;
+
   left: 0;
   bottom: 0;
   width: 100%;
@@ -192,6 +207,23 @@ ul {
   text-align: center;
   border-top: solid 3px darkgreen;
   padding-top: 0vh;
-  padding-bottom: 0vh;}
+  padding-bottom: 0vh;
+}
+.contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.quick-links{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+}
 
      
