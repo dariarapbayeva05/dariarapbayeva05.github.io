@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+    background-color: aliceblue;
+    background-image: url(".");
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  header{
+    margin-right: 500px;
+    display:flex;
+   
+  }
+
+
+
+  .banner{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 380px;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .nav_list{
+    margin: 0 550px;
+    /* margin-left: 1100px; */
+  }
+  
+
+  .menu{
+    display:inline;
+    padding: 5px;
+    justify-content:space-between;
+
+
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  ul { 
+    list-style-type: none;
+    display:flex;
+    align-items:center;    
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  #99c2ff;
+    border-radius: 20px;
+  }
+
+  #main-heading{
+    color: black;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+    
+  }
+
+  #task{
+    padding: 20px;
+  }
+
+
+  #nu_pic{
+    width: 600px;
+    height: 400px;
+  }
+
+  

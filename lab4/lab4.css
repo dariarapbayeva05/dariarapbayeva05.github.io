@@ -1,0 +1,197 @@
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+#header {
+  border: 1px solid red;
+  padding: 15px;
+  background-color: #787879;
+}
+
+
+.col-Main  {
+  width:75%;
+  float:left;
+  padding: 15px;
+  margin-bottom: 7px;
+  background-color: #787879;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+.col-Aside {
+  width:25%;
+  float:left;
+  padding-left:15px;
+  background-color: #787878;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+#grading{
+width: 100%;
+float:left;
+}
+.dari{
+  position: relative;
+  left: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  height: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 139, 63);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  header{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(249, 249, 248), 0 0 5px darkblue;
+    font-size: 500%;
+  
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h2{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 139, 63), 0 0 5px darkblue;
+    font-size: 200%;
+  }
+  p{
+    text-align: left;
+    line-height: 1.8;
+    word-spacing: 10px;
+  
+  
+  }
+  #nu_pic { 
+    float: right;
+    width: 500px;
+    height: 400px;
+  
+  
+  }
+  
+  
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+  }
+  #deadline {
+    text-align: justify
+    ;
+  }
+
+ h5 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 139, 63), 0 0 5px darkblue;
+  font-size: 200%;
+
+ }
+  
+
+
+  .contacts {
+    width: 320px;
+    padding: 10px;
+    left: auto;
+  }
+  h3{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 139, 63), 0 0 5px darkblue;
+    font-size: 200%;
+  }
+  #deadline{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 139, 63), 0 0 5px darkblue;
+    font-size: 200%;
+  }
+  .topic{
+  text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 139, 63), 0 0 5px darkblue;
+    font-size: 200%;}
+  
+    p
+    {
+      text-align: left;  }
+      
+
+
+@media only screen and (max-width: 800px) {
+  /* For desktop: */
+  
+  .col-Aside {width: 25%;padding: 0;}
+  .col-Main {width: 75%;padding: 0;}
+  .col-Footer {width: 100%; padding: 0;}
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .nav_list a {
+    float: none;
+    width: 100%;
+  }
+}
+#footer{
+  background-color: rgb(226, 139, 63);
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  border-top: solid 3px darkgreen;
+  padding-top: 0vh;
+  padding-bottom: 0vh;}
+
+     
